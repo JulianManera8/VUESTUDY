@@ -1,0 +1,9 @@
+Como crear una app de vue en Single Page Application
+
+- comando que se usa: 
+    npm create vue@latest
+    pnpm create vue@latest
+
+seguir los pasos para crear la app, agregarle vue-router / pinia
+
+
