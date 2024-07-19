@@ -1,0 +1,22 @@
+Ref y Reactive son dos funciones de VUE que nos brindan la responsividad
+
+    import { ref, reactive } from 'vue'
+
+ref se usa para cualquier tipo de dato, y se accede mediante .value
+
+    const hola = ref('')
+    hola.value
+
+reactive se usa con objetos o arreglos o map dentro, se accede mediante state.
+
+    const state = reactive({
+        hola: ''
+    })
+    state.hola // nos muestra el valor d hola
+
+    const state2 = reactive([
+        hola
+    ])
+    state[0] // nos muestra hola
+
+EJEMPLO EN 2Dos.vue

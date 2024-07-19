@@ -1,0 +1,18 @@
+Computed
+
+es una funcion que nos da vue (otra como si fuera ref o reactive) que nos sirve para manejar mejor la ®eactividad tan famosa d vue
+
+hay que importarla como ref o reactive asi
+
+    import { computed } from 'vue'
+
+COMPUTED SIRVE PARA encapsular informacion para transformar o manipular data reactiva, a la cual le aplicamos el computed.
+
+Es importante siempre poner un return para que nos muestre el resultado de aplicar computed.
+
+Es importante tambien NO MODIFICAR EL VALOR REACTIVO ORIGINAL, PQ COMPUTED NO MODIFICA, SOLO TRANSFORMA Y/O MANIPULA.
+(por eso en ejemplo 2 uso una copia del arreglo, no el original)
+
+ejemplo: si quiero mostrar cuantos caracteres voy escribiendo (EJEMPLO EN 2Dos.vue).
+
+ejemplo 2: si quiero mostrar una lista pero al reves.
